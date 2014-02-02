@@ -6,6 +6,8 @@ Group:          System Environment/Base
 License:        GPLv2+
 URL:            https://github.com/cgwalters/rpm-ostree
 Source0:        %{name}-%{version}.tar.xz
+BuildRequires: autoconf automake libtool
+BuildRequires: pkgconfig(gio-unix-2.0)
 BuildRequires:  libselinux-devel
 BuildRequires:  selinux-policy-devel
 Requires(post): selinux-policy-base, policycoreutils
