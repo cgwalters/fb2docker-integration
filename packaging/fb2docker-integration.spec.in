@@ -13,7 +13,6 @@ BuildRequires:  selinux-policy-devel
 Requires(post): selinux-policy-base, policycoreutils
 Requires(postun): policycoreutils
 BuildArch:      noarch
-Requires:       %{name}-utils = %{version}-%{release}
 Requires:       policycoreutils, libselinux-utils
 
 %description
