@@ -50,6 +50,7 @@ AC_SUBST(SYSTEMD_SYSTEM_UNIT_DIR, [$with_systemdsystemunitdir])
 
 AC_CONFIG_FILES([
 Makefile
+policy/Makefile
 ])
 AC_OUTPUT
 

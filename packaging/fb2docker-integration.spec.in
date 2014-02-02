@@ -21,6 +21,7 @@ Integration bits for fb2docker.
 %setup -q
 
 %build
+env NOCONFIGURE=1 ./autogen.sh
 %configure
 make %{?_smp_mflags}
 

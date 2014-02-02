@@ -15,8 +15,8 @@
 # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
-fb2docker.pp: fb2docker.fc fb2docker.if fb2docker.te
+fb2docker-integration.pp: fb2docker-integration.fc fb2docker-integration.if fb2docker-integration.te
 	make -f /usr/share/selinux/devel/Makefile
 
 selinuxpkgdir = $(datadir)/selinux/packages
-selinuxpkg_DATA = fb2docker.pp
+selinuxpkg_DATA = fb2docker-integration.pp

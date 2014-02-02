@@ -19,4 +19,4 @@ include Makefile-decls.am
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-include Makefile-policy.am
+SUBDIRS = policy
